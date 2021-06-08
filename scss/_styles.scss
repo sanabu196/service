@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Roboto&display=swap");
+body {
+  .container {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 60px;
+        .section{
+      text-align: center;
+  
+    .title1{
+    color: #5b6168;
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+  .title2{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 20px;
+    &:before {
+      position: absolute;
+      content: '';
+      width: 170px;
+      height: 3px;
+      background: #ffe600;
+      bottom: 0;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+  }
+}
+  .section-description{
+    color: #5b6168;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 20px;
+   }
+}
+}
+.clips{
+  padding-top: 60px;
+}
+.clips-look,
+.clips-header {
+  text-align: center;
+}
+.clips-title,
+.clips-description1 {
+  padding-top: 25px;
+    font-weight: bold;
+}
+.clips-description1,
+.clips-description2 {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #5b6168;
+}
+.clips-look{
+  padding-bottom: 68px;
+}
+}
+
+.container2{
+  font-family: 'Oswald', sans-serif;
+  background-color: #131a1d;
+  .section{
+    text-align: center;
+  }
+  .title{
+    color: #ffe600;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 62px;
+  }
+  .description {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    padding-top: 24px;
+  }
+  .clips-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    }
+    .clips-description1{
+      font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    }
+}
